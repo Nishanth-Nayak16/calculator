@@ -1,0 +1,78 @@
+*{
+  margin:0px;
+  padding:0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
+.mainCalc{
+  background-color: #444;
+  margin:0px;
+  padding:2px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 420px;
+  align-items: center;
+  height: 520px;
+  position: absolute;
+  left: 450px;
+}
+
+button{
+  width: 100px;
+  background: #222;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin: 2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 100%;
+  float: left;
+}
+
+button:active{
+  background: #ccc;
+}
+
+button[value='+'], 
+button[value='-'], 
+button[value='*'], 
+button[value='/'], 
+button[value='('],
+button[value=')'],
+button[value='%']{
+  color: green;
+}
+
+button[value='<<']{
+  color: green;
+  float: right;
+}
+
+button[value='=']{
+  color: white;
+  background-color: green;
+}
+
+button[value='C']{
+  color: orangered;
+}
+
+input[type='text']{
+  width: 418px;
+  background: #222;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+}
+
+h1 {
+  font-size: 32px;
+}
